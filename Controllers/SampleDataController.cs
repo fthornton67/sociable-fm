@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace core_app.Controllers
+namespace sociable_fm.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller
