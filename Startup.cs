@@ -51,7 +51,7 @@ namespace core_app
 
                 routes.MapSpaFallbackRoute(
                     name: "spa-fallback",
-                    defaults: new { controller = "Home", action = "Index" });
+                    defaults: new { controller = "Welcome", action = "Index" });
             });
         }
     }
