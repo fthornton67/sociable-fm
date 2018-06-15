@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace sociable_fm.Controllers
+namespace core_app.Controllers
 {
     public class HomeController : Controller
     {
