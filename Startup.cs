@@ -45,9 +45,13 @@ namespace core_app
 
             app.UseMvc(routes =>
             {
+               /* routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Welcome}/{action=Index}/{id?}");*/
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Welcome}/{action=Index}/{id?}");
+                    template: "{controller=Welcome}/{action=Index}");
+
 
                 routes.MapSpaFallbackRoute(
                     name: "spa-fallback",
